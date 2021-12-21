@@ -7,6 +7,7 @@
  
 <script>
 export default {
-  layout: "complete",
+  // layout: "complete",
+  mounted() { console.log(this.$root.layoutName) },
 };
 </script> 
